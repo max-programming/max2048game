@@ -1,0 +1,113 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.705)),
+    url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 47px;
+  padding: 25px 0 15px 0;
+  margin: 0;
+  font-weight: 100;
+}
+.instructions p {
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 20px;
+  max-width: 340px;
+  text-align: justify;
+  font-weight: 100;
+  font-size: 20px;
+}
+table {
+  position: static;
+  margin: 0;
+  animation-duration: 0.4s;
+  animation-direction: reverse;
+}
+td {
+  padding: 10px;
+  border: 2px solid rgb(201, 201, 201);
+  font-family: monospace;
+  font-size: 6rem;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  user-select: none;
+  cursor: default;
+}
+td span {
+  animation-name: down;
+  animation-duration: 0.4s;
+  animation-direction: reverse;
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+}
+
+.gameOver {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 9;
+  background: rgba(255, 0, 0, 0.7);
+  font-family: "Fira Code", monospace;
+  color: azure;
+  padding: 4rem;
+  font-size: 3rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.gameOver button {
+  border: none;
+  outline: none;
+  background-color: azure;
+  padding: 2rem;
+  width: 20rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.gameOver button:hover {
+  background-color: lawngreen;
+}
+li {
+  font-size: 2rem;
+  text-align: left;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0 0 0;
+}
+#footer-text {
+  font-size: 23px;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+#footer-text a {
+  color: #fff;
+}
+.fa {
+  padding: 6px;
+  font-size: 35px !important;
+}
+footer strong {
+  font-weight: 600;
+}

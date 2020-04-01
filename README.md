@@ -1,1 +1,1 @@
-Simple JS Game made by me and designed by DevIbrahim.
+Simple JS Game made by Max Programming and designed by me.
