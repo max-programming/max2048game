@@ -1,1 +1,1 @@
-# max2048game
+Simple JS Game made by me and designed by DevIbrahim.
